@@ -6,7 +6,7 @@ import pandas as pd
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from features import build_team_features
 
-API_KEY = "94412712-86f5-4f59-97ac-74b9ed717a29"
+
 HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 MAX_WORKERS = 5
 
