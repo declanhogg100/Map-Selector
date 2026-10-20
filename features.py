@@ -3,7 +3,7 @@ import requests
 import time
 import pandas as pd
 
-API_KEY = "94412712-86f5-4f59-97ac-74b9ed717a29"
+
 headers = {"Authorization": "Bearer 94412712-86f5-4f59-97ac-74b9ed717a29"}
 
 def get_db():
